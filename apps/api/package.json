@@ -11,17 +11,17 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@fastify/cors": "^11.2.0",
     "@repo/database": "workspace:*",
     "@repo/shared": "workspace:*",
     "@trpc/server": "^11.0.0-rc.632",
     "better-auth": "^1.3.0",
-    "dotenv": "^16.4.7",
+    "dotenv": "^17.2.4",
     "fastify": "^5.2.0",
-    "@fastify/cors": "^10.0.2",
-    "zod": "^3.23.8"
+    "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
+    "@types/node": "^25.2.2",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   }

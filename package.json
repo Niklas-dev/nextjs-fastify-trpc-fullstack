@@ -15,7 +15,7 @@
     "db:studio": "cd packages/database && pnpm db:studio"
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
+    "@types/node": "^25.2.2",
     "prettier": "^3.4.2",
     "turbo": "^2.3.3",
     "typescript": "^5.7.2"
@@ -27,7 +27,8 @@
   },
   "pnpm": {
     "overrides": {
-      "drizzle-orm": "^0.41.0"
+      "drizzle-orm": "^0.41.0",
+      "esbuild": "^0.25.0"
     }
   }
 }
